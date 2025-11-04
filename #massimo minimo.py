@@ -5,7 +5,7 @@ n3=float(input("Inserisci un terzo numero: "))
 massimo=n1
 if (massimo>n2) and (massimo>n3):
     print("Il massimo numero è", massimo)
-elif (massimo<n2) and (massimo>n3):
+if (massimo<n2) and (massimo>n3):
     print("Il massimo numero è", n2)
 if (massimo>n2) and (massimo<n3):
     print("Il massimo numero è", n3) 
